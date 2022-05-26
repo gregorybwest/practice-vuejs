@@ -24,7 +24,7 @@
       <input type="text" v-model="newCar">
       <button v-on:click="addNewCar()">Add Car</button>
       <div>
-        <button v-on:click="showInfo = !showInfo">Toggle</button>
+        <input type="checkbox" v-on:click="showInfo = !showInfo">Toggle</input>
         <p v-bind:class="{ disabled: showInfo }">Extra Information</p>
       </div>
     </div>
