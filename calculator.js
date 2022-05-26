@@ -13,6 +13,9 @@ var App = {
     sumNums: function () {
       return parseInt(this.num1) + parseInt(this.num2) + parseInt(this.num3);
     },
+    productNums: function () {
+      return parseInt(this.num1) * parseInt(this.num2) * parseInt(this.num3);
+    },
   },
 };
 
